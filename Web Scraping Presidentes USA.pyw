@@ -42,6 +42,7 @@ texto.set(tablaPresidentes)
 Label(root, text="Web Scraping Presidentes USA por edad").pack(anchor="center")
 Label(root, text="Sistemas Expertos").pack(anchor="center")
 Label(root, text="By Jhovani García Jaime").pack(anchor="center")
+
 label = Label()
 label.config(bg="skyblue", fg="black", font=("Consolas",12),textvariable=texto)
 label.pack(anchor="center")
